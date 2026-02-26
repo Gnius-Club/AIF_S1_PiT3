@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playbook-P-INT-T2-S1.5</title>
+    <title>Playbook-P-INT-T2-S3</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1><span class="book-icon">💡</span> <strong>Playbook: Proyecto Integrador T2 - Sesión 1.5</strong></h1>
+        <h1><span class="book-icon">💡</span> <strong>Playbook: Proyecto Integrador T2 - Sesión 3</strong></h1>
         <div class="header-widgets">
             <div class="timer-container">
                 <span id="global-timer">⏱️ 40:00</span>
@@ -28,7 +27,6 @@
             </div>
         </div>
     </header>
-
     <div class="main-container">
         <aside class="activity-list">
             <h2>Actividades</h2>
@@ -38,366 +36,300 @@
                 <li><a href="#activity-2">2</a></li>
                 <li><a href="#activity-3">3</a></li>
                 <li><a href="#activity-4">4</a></li>
-                <li><a href="#activity-5">5</a></li>
             </ul>
         </aside>
-
         <main class="content">
             <div class="progress-bar">
                 <div class="progress"></div>
             </div>
-
             <!-- ACTIVIDAD 0: DE UN VISTAZO -->
             <div class="activity-card" id="activity-0">
                 <h2><span class="book-icon">📝</span> De un Vistazo: Comando Central</h2>
-                <p class="overview-subtitle">Sesión "Booster": Stress Test y Manejo de Errores para el Sistema Robótico.</p>
+                <p class="overview-subtitle">Sesión "Piranha Tank": Co-creación de Pitch con IA y Presentación de MVPs.</p>
                 
                 <div class="command-section">
                     <h3>🎯 Objetivo de Aprendizaje</h3>
                     <div class="objective-box">
-                        <p><strong>Los estudiantes podrán:</strong> Identificar posibles puntos de fallo en sus "System Blueprints" (Stress Test) y diseñar lógica de programación (Manejo de Errores) para que el robot reaccione ante imprevistos.</p>
+                        <p><strong>Los estudiantes podrán:</strong> Utilizar frameworks de Prompt Engineering (RCTFA) para co-crear un pitch persuasivo y presentar un prototipo funcional (MVP) desarrollado mediante Vibe Coding ante una audiencia crítica.</p>
                     </div>
                 </div>
-
                 <div class="command-section xolo-prompt">
                     <h3>🤖 Prompt de Referencia para XOLO (Solo para Maestro)</h3>
                     <div class="prompt-box">
                         <div class="prompt-header">
-                            <span class="prompt-label">⚠️ NOTA: XOLO actúa como Ingeniero de Fiabilidad automáticamente. Usar solo en emergencia:</span>
+                            <span class="prompt-label">⚠️ NOTA: XOLO actúa como Mentor de Pitch y Prompt Engineer. Usar para guiar la estructura:</span>
                             <button class="copy-btn" onclick="copyPrompt('main-prompt')">
                                 <i class="fas fa-copy"></i> Copiar
                             </button>
                         </div>
-                        <pre id="main-prompt">Actúa como Ingeniero de Fiabilidad experto en robótica. Revisa los pasos de mi robot (Cutebot + AI Lens) y ayúdame a identificar posibles fallos (Red Team) y cómo programar la solución (ej: timeouts, alertas sonoras, reintentos). Sé crítico pero constructivo.</pre>
+                        <pre id="main-prompt">Actúa como un experto en Pitch Decks y Prompt Engineering. Ayúdame a estructurar un pitch usando el framework RCTFA (Rol, Contexto, Tarea, Formato, Audiencia) para presentar una solución de software creada con IA. Genera también un prompt de Chain-of-Thought para que los alumnos refinen su propuesta de valor basándose en el feedback de un inversionista tecnológico.</pre>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>⚡ Puntos Esenciales de la Misión</h3>
                     <div class="essentials-grid">
                         <div class="essential-card">
-                            <div class="essential-icon">🛡️</div>
+                            <div class="essential-icon">🎤</div>
                             <h4>Concepto Clave</h4>
-                            <p>Planificación de Fallos (Error Handling): Diseñar para cuando las cosas salen mal, no solo para el éxito.</p>
+                            <p>Box Clever & RCTFA: Claridad en el mensaje y precisión técnica en las instrucciones dadas a la IA.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">🔧</div>
                             <h4>Habilidad Técnica</h4>
-                            <p>Lógica condicional para excepciones (If error -> Then recover).</p>
+                            <p>Vibe Coding MVP: Presentación de una aplicación o automatización funcional orquestada por IA.</p>
                         </div>
                         <div class="essential-card">
-                            <div class="essential-icon">🚩</div>
-                            <h4>Dinámica: Red Team</h4>
-                            <p>Simular el "Equipo Rojo" para atacar los propios planos y encontrar debilidades.</p>
+                            <div class="essential-icon">🧠</div>
+                            <h4>Dinámica: CCC Feedback</h4>
+                            <p>Crítica estructurada: Concerns (Preocupaciones), Confusions (Confusiones) y Conflicts (Conflictos).</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">💬</div>
                             <h4>Interacción con XOLO</h4>
-                            <p>XOLO actúa como "Consultor de Fiabilidad". Cuestiona los planos de los alumnos para hacerlos robustos.</p>
+                            <p>XOLO actúa como "Socio de Negocios". Refina el script del pitch y optimiza los prompts para generar visuales de la interfaz.</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>📦 Checklist de Materiales</h3>
                     <div class="materials-checklist">
-                        <label><input type="checkbox"> Proyector/pantalla + presentación (Diapositivas 1-5)</label>
+                        <label><input type="checkbox"> Proyector/pantalla + presentación (Diapositivas 1-6)</label>
                         <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
-                        <label><input type="checkbox"> "System Blueprints" de la Sesión 1 (Digital o Impreso)</label>
-                        <label><input type="checkbox"> Plantillas actualizadas "Manejo de Errores"</label>
+                        <label><input type="checkbox"> Acceso al repositorio del código o aplicación (Vibe Coding/MVP funcional)</label>
+                        <label><input type="checkbox"> Herramienta de IA de imagen abierta (Midjourney, DALL-E o similar) para Mockups</label>
+                        <label><input type="checkbox"> Post-its para feedback CCC</label>
+                        <label><input type="checkbox"> Fichas de Inversión (Digitales o físicas)</label>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>🗓️ Secuencia de la Misión (40 min)</h3>
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-dot">1</div>
                             <div class="timeline-content">
-                                <strong>Intro: Plan Ideal vs Realista</strong>
-                                <span class="time-badge">5 min</span>
-                                <p>Introducción al diseño robusto y mentalidad de ingeniero.</p>
+                                <strong>Prompting del Pitch y MVP</strong>
+                                <span class="time-badge">17 min</span>
+                                <p>Optimización del script con RCTFA y preparación del demo de Vibe Coding.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">2</div>
                             <div class="timeline-content">
-                                <strong>Simulacro Red Team (Con XOLO)</strong>
+                                <strong>Piranha Tank: Demos en Vivo</strong>
                                 <span class="time-badge">15 min</span>
-                                <p>XOLO cuestiona los diseños: "¿Qué pasa si...?"</p>
+                                <p>Presentación de la solución y retroalimentación CCC.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">3</div>
                             <div class="timeline-content">
-                                <strong>Brain Spark: Blueprint Robusto</strong>
-                                <span class="time-badge">15 min</span>
-                                <p>Documentar las soluciones y planes de contingencia.</p>
+                                <strong>La Decisión Final</strong>
+                                <span class="time-badge">5 min</span>
+                                <p>Votación basada en viabilidad técnica e impacto social.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot">4</div>
                             <div class="timeline-content">
-                                <strong>Gnius STORM - Cierre</strong>
+                                <strong>Cierre de Trimestre</strong>
                                 <span class="time-badge">3 min</span>
-                                <p>Reflexión sobre la fiabilidad del sistema.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot">5</div>
-                            <div class="timeline-content">
-                                <strong>Guardado de Planos</strong>
-                                <span class="time-badge">2 min</span>
-                                <p>Asegurar entregables para la fase de construcción.</p>
+                                <p>Reflexión sobre el desarrollo de software dirigido por IA.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="command-section">
                     <h3>🚨 Resolución Rápida de Problemas</h3>
                     <div class="troubleshooting-list">
                         <ul>
-                            <li><strong>Si XOLO no sugiere fallos:</strong> Pide al alumno ser más específico: "Xolo, mi robot debe agarrar un cubo, ¿qué puede fallar?".</li>
-                            <li><strong>Si los alumnos se frustran con los fallos:</strong> Reenmarca el problema: "Mejor encontrar el error hoy en papel que mañana en el robot".</li>
+                            <li><strong>Si el MVP falla en vivo:</strong> Enfocarse en explicar la arquitectura del software y los prompts clave utilizados durante el desarrollo.</li>
+                            <li><strong>Si el pitch es demasiado técnico:</strong> Pedir a XOLO que "traduzca" la propuesta para una audiencia no técnica usando analogías.</li>
+                            <li><strong>Si los equipos no logran sintetizar:</strong> Aplicar la restricción de "3 diapositivas máximo" para forzar la técnica Box Clever.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- ACTIVIDAD 1: INTRO A LA MISIÓN -->
+            <!-- ACTIVIDAD 1: BRIEFING Y PITCH CON IA -->
             <div class="activity-card" id="activity-1">
                 <div class="activity-header">
-                    <h2>🚀 Actividad 1: Intro - Del Plan Ideal al Realista</h2>
+                    <h2>🧠 Actividad 1: Prompting y Táctica de Pitch</h2>
+                    <div class="activity-timer">
+                        <span class="activity-duration">⏱️ 17:00</span>
+                        <button class="timer-start-btn" data-duration="1020">Iniciar</button>
+                    </div>
+                </div>
+                <div class="roles-section">
+                    <div class="role-card role-teacher">
+                        <h4>👨‍🏫 Rol del Maestro</h4>
+                        <ul>
+                            <li>Reforzar el uso del framework <strong>RCTFA</strong> para obtener scripts de pitch de alta calidad.</li>
+                            <li>Supervisar la integración de los visuales generados por IA con el demo funcional del software.</li>
+                            <li>Validar que los alumnos demuestren su <strong>Vibe Coding</strong> (código generado/dirigido).</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-xolo">
+                        <h4>🤖 Rol de XOLO</h4>
+                        <p class="xolo-status">✅ PITCH MENTOR / PROMPT ARCHITECT</p>
+                        <ul>
+                            <li>Estructura el discurso de venta basado en el problema resuelto por la IA.</li>
+                            <li>Diseña prompts para crear mockups profesionales de la interfaz del software.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-student">
+                        <h4>👦 Rol del Alumno</h4>
+                        <ul>
+                            <li>Utilizar XOLO para aplicar técnicas de <strong>Advanced Prompting</strong> en la narrativa del proyecto.</li>
+                            <li>Preparar el entorno de ejecución para mostrar su aplicación o código funcional.</li>
+                            <li>Crear una diapositiva maestra que combine el MVP y el visual de impacto de la IA.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide-reference">
+                    <h4>📊 Diapositiva 2: De Código a Negocio</h4>
+                    <div class="slide-content">
+                        <p><strong>🎯 Misión: Tu Pitch impulsado por IA</strong></p>
+                        <div class="prompt-box">
+                            <pre>Pide a XOLO: "Usando RCTFA, actúa como un experto en startups. Genera un pitch de 90 segundos para mi solución [Nombre]. Incluye un prompt para crear un mockup de la UI que se vea fotorrealista."</pre>
+                        </div>
+                        <p class="highlight-text">💡 Tip: No solo muestres lo que hace tu IA, muestra cómo tu Prompting lo hace posible.</p>
+                    </div>
+                </div>
+                <div class="optional-script">
+                    <button class="collapsible-button">📖 Ver guion detallado</button>
+                    <div class="collapsible-content">
+                        <p class="dialogue assistant">"¡Equipos! El código es solo la mitad del éxito; la otra mitad es saber vender la solución. Hoy XOLO no es solo un chat, es su consultor de negocios. Van a usar RCTFA para que sus palabras sean tan precisas como sus prompts. Tienen 17 minutos para pulir su script, generar su mockup visual y tener su demo listo. ¡Impresionen a las pirañas!"</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACTIVIDAD 2: RONDAS DE PITCH Y FEEDBACK CCC -->
+            <div class="activity-card" id="activity-2">
+                <div class="activity-header">
+                    <h2>🎤 Actividad 2: Piranha Tank y Demo Day</h2>
+                    <div class="activity-timer">
+                        <span class="activity-duration">⏱️ 15:00</span>
+                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
+                    </div>
+                </div>
+                <div class="roles-section">
+                    <div class="role-card role-teacher">
+                        <h4>👨‍🏫 Rol del Maestro</h4>
+                        <ul>
+                            <li>Moderar las "Pirañas": asegurar que el feedback CCC sea técnico y constructivo.</li>
+                            <li>Cronometrar: 90 segundos de pitch + 1 minuto de demo + 1 minuto de CCC.</li>
+                            <li>Evaluar la coherencia entre el prompt original y el resultado mostrado.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-xolo">
+                        <h4>🤖 Rol de XOLO</h4>
+                        <p class="xolo-status">⏸️ MODO ESCUCHA</p>
+                        <ul>
+                            <li>Se mantiene en espera por si se requiere una iteración rápida del código durante el demo.</li>
+                        </ul>
+                    </div>
+                    <div class="role-card role-student">
+                        <h4>👦 Rol del Alumno</h4>
+                        <ul>
+                            <li>Ejecutar el demo de su software (Vibe Coding) con fluidez.</li>
+                            <li>Recibir feedback CCC: identificar si hay fallas en la lógica del prompt o en la funcionalidad del MVP.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide-reference">
+                    <h4>📊 Diapositiva 3 y 4: Demo en Vivo</h4>
+                    <div class="slide-content">
+                        <p><strong>🔥 Reglas del Piranha Tank:</strong></p>
+                        <ul>
+                            <li>Pitch & Demo: 2.5 minutos totales.</li>
+                            <li>Evidencia: Código funcional o arquitectura de automatización.</li>
+                            <li>Feedback CCC: <strong>C</strong>oncerns, <strong>C</strong>onfusions, <strong>C</strong>onflicts.</li>
+                        </ul>
+                        <p class="highlight-text">"Pirañas: Evalúen la utilidad de la IA y la calidad del Prompting detrás del proyecto."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACTIVIDAD 3: LA DECISIÓN FINAL -->
+            <div class="activity-card" id="activity-3">
+                <div class="activity-header">
+                    <h2>⚡ Actividad 3: Inversión en Innovación IA</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 5:00</span>
                         <button class="timer-start-btn" data-duration="300">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Explicar que hoy es una sesión "Booster".</li>
-                            <li>Diferenciar entre "Camino Feliz" (todo sale bien) y "Mundo Real" (fallos).</li>
-                            <li>Proyectar Diapositiva 1.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-xolo">
-                        <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">✅ XOLO LISTO</p>
-                        <ul>
-                            <li>Preparado con su rol de Ingeniero de Fiabilidad.</li>
-                            <li>Conoce el contexto de los proyectos de los alumnos.</li>
+                            <li>Distribuir los créditos de inversión digitales.</li>
+                            <li>Fomentar una votación basada en: ¿Quién usó mejor la IA para resolver el problema?</li>
+                            <li>Revelar el "Unicornio de la Clase" (proyecto más votado).</li>
                         </ul>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Revisar su Blueprint de la sesión anterior.</li>
-                            <li>Entender que hoy "atacarán" su propio diseño.</li>
+                            <li>Analizar la viabilidad de los proyectos de sus compañeros.</li>
+                            <li>Votar objetivamente por la solución que mejor integre IA y desarrollo de software.</li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="slide-reference">
-                    <h4>📊 Diapositiva 1: Objetivos</h4>
+                    <h4>📊 Diapositiva 5: Votación Capital</h4>
                     <div class="slide-content">
-                        <p><strong>🎯 Misión de Hoy:</strong></p>
-                        <p class="highlight-text">Convertir un plan "optimista" en un plan "a prueba de balas".</p>
-                        <p><strong>¿Por qué?</strong> Porque en la robótica real, los sensores fallan, la luz cambia y las baterías se agotan. ¡Debemos estar listos!</p>
+                        <p><strong>💰 ¿Qué solución de IA escalarías?</strong></p>
+                        <p class="highlight-text">Vota por la ejecución técnica más sólida y el pitch más claro. ¡No puedes votar por tu propio código!</p>
                     </div>
                 </div>
             </div>
 
-            <!-- ACTIVIDAD 2: SIMULACRO RED TEAM -->
-            <div class="activity-card" id="activity-2">
-                <div class="activity-header">
-                    <h2>🧠 Actividad 2: Simulacro 'Red Team' con XOLO</h2>
-                    <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 15:00</span>
-                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
-                    </div>
-                </div>
-
-                <div class="roles-section">
-                    <div class="role-card role-teacher">
-                        <h4>👨‍🏫 Rol del Maestro</h4>
-                        <ul>
-                            <li>Indicar: "Abran el chat con XOLO. Díganle una acción de su robot y dejen que él encuentre los problemas".</li>
-                            <li>Monitorear que los alumnos no ignoren los fallos sugeridos.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-xolo">
-                        <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">🔥 MODO RED TEAM</p>
-                        <ul>
-                            <li>Cuestiona activamente: "¿Y si la cámara no ve el color?", "¿Y si el servo se atasca?".</li>
-                            <li>Sugiere soluciones técnicas: Timeouts, reintentos, señales de alerta.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-student">
-                        <h4>👦 Rol del Alumno</h4>
-                        <ul>
-                            <li>Interactuar con XOLO describiendo pasos de su robot.</li>
-                            <li>Responder a los "¿Qué pasa si...?" de la IA.</li>
-                            <li>Anotar los posibles fallos descubiertos.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 2 y 3: Red Team</h4>
-                    <div class="slide-content">
-                        <p><strong>💬 Reto con XOLO:</strong></p>
-                        <div class="prompt-box">
-                            <pre>Dile a XOLO: "Mi robot tiene que [acción]. ¿Qué podría salir mal?"</pre>
-                        </div>
-                        <p class="highlight-text" style="margin-top: 1rem;">🔍 Ejemplo: "Mi brazo agarra el cubo." -> 🤖 Xolo: "¿Qué pasa si el cubo está muy lejos? ¿Debe el robot avanzar o rendirse?"</p>
-                    </div>
-                </div>
-
-                <div class="optional-script">
-                    <button class="collapsible-button">📖 Ver guion detallado</button>
-                    <div class="collapsible-content">
-                        <p class="dialogue assistant">"Es hora del ataque. XOLO será su 'Red Team'. Abran el chat y cuéntenle qué debe hacer su robot. Él va a intentar encontrar huecos en su lógica. No se asusten, ¡es mejor que XOLO encuentre el error hoy en la pantalla, a que el robot falle mañana en la competencia!"</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ACTIVIDAD 3: BRAIN SPARK - BLUEPRINT ROBUSTO -->
-            <div class="activity-card" id="activity-3">
-                <div class="activity-header">
-                    <h2>💡 Actividad 3: Brain Spark - El Blueprint Robusto</h2>
-                    <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 15:00</span>
-                        <button class="timer-start-btn" data-duration="900">Iniciar</button>
-                    </div>
-                </div>
-
-                <div class="roles-section">
-                    <div class="role-card role-teacher">
-                        <h4>👨‍🏫 Rol del Maestro</h4>
-                        <ul>
-                            <li>Pedir que llenen la sección "Manejo de Errores" en sus hojas.</li>
-                            <li>Guiar el formato: <strong>Si pasa [Error] -> Entonces hacer [Acción]</strong>.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-xolo">
-                        <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">✅ CONSULTOR TÉCNICO</p>
-                        <ul>
-                            <li>Ayuda a redactar la lógica de recuperación.</li>
-                            <li>Ejemplo: "Si sensor < 5cm por 10 seg, entonces retroceder y girar".</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-student">
-                        <h4>👦 Rol del Alumno</h4>
-                        <ul>
-                            <li>Documentar las soluciones a los fallos encontrados.</li>
-                            <li>Actualizar el Blueprint para que incluya planes de contingencia.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 4: Documentación</h4>
-                    <div class="slide-content">
-                        <p><strong>📝 Nueva Sección: Manejo de Errores</strong></p>
-                        <ul>
-                            <li><strong>Trigger (Gatillo):</strong> ¿Cuál es el fallo? (Ej. No veo la tarjeta roja).</li>
-                            <li><strong>Acción de Recuperación:</strong> ¿Qué hace el robot? (Ej. Girar 360° buscando, o encender luz roja de error).</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ACTIVIDAD 4: CIERRE Y REFLEXIÓN -->
+            <!-- ACTIVIDAD 4: CIERRE Y CELEBRACIÓN -->
             <div class="activity-card" id="activity-4">
                 <div class="activity-header">
-                    <h2>⚡ Actividad 4: Gnius STORM - Cierre</h2>
+                    <h2>✅ Actividad 4: Cierre del Proyecto Integrador</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 3:00</span>
                         <button class="timer-start-btn" data-duration="180">Iniciar</button>
                     </div>
                 </div>
-
                 <div class="roles-section">
                     <div class="role-card role-teacher">
                         <h4>👨‍🏫 Rol del Maestro</h4>
                         <ul>
-                            <li>Felicitar a los equipos por sus sistemas "Antifragiles".</li>
-                            <li>Reflexión rápida sobre la importancia de prever errores.</li>
-                        </ul>
-                    </div>
-                    <div class="role-card role-student">
-                        <h4>👦 Rol del Alumno</h4>
-                        <ul>
-                            <li>Compartir con otra pareja un fallo crítico que descubrieron y cómo planean solucionarlo.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="slide-reference">
-                    <h4>📊 Diapositiva 5: Think-Pair-Share</h4>
-                    <div class="slide-content tps-structure">
-                        <div class="tps-phase">
-                            <h4>🤔 THINK</h4>
-                            <p>¿Cuál fue el fallo más peligroso que XOLO encontró en mi diseño?</p>
-                        </div>
-                        <div class="tps-phase">
-                            <h4>💬 SHARE</h4>
-                            <p>Cuéntale a tu compañero: "Mi robot iba a fallar si [condición], pero ahora va a [solución]."</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ACTIVIDAD 5: GUARDADO Y EVIDENCIAS -->
-            <div class="activity-card" id="activity-5">
-                <div class="activity-header">
-                    <h2>✅ Actividad 5: Guardado de Planos</h2>
-                    <div class="activity-timer">
-                        <span class="activity-duration">⏱️ 2:00</span>
-                        <button class="timer-start-btn" data-duration="120">Iniciar</button>
-                    </div>
-                </div>
-
-                <div class="roles-section">
-                    <div class="role-card role-teacher">
-                        <h4>👨‍🏫 Rol del Maestro</h4>
-                        <ul>
-                            <li>Asegurar que los Blueprints físicos o digitales estén guardados.</li>
-                            <li>Confirmar que están listos para la fase de construcción (siguiente sesión).</li>
+                            <li>Felicitar a la clase por completar el ciclo de desarrollo IA First.</li>
+                            <li>Resaltar cómo el Prompt Engineering les permitió crear software real en tiempo récord.</li>
                         </ul>
                     </div>
                     <div class="role-card role-xolo">
                         <h4>🤖 Rol de XOLO</h4>
-                        <p class="xolo-status">⭕ XOLO FINALIZADO</p>
+                        <p class="xolo-status">⭕ MISIÓN COMPLETADA</p>
                     </div>
                     <div class="role-card role-student">
                         <h4>👦 Rol del Alumno</h4>
                         <ul>
-                            <li>Guardar su "Blueprint Robusto".</li>
-                            <li>Cerrar sesión en Gnius Space.</li>
+                            <li>Guardar sus prompts finales, scripts y capturas del MVP en su portafolio.</li>
+                            <li>Identificar una habilidad de IA que hayan perfeccionado en este trimestre.</li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="slide-reference">
-                    <h4>📊 Diapositiva Final</h4>
-                    <div class="slide-content">
-                        <p><strong>📁 ¡Listos para Construir!</strong></p>
-                        <p class="highlight-text">Hoy diseñaron un sistema inteligente. La próxima clase... ¡le daremos vida!</p>
-                        <p>Guarda bien tu hoja de Manejo de Errores.</p>
+                    <h4>📊 Diapositiva 6: Reflexión Post-Vibe</h4>
+                    <div class="slide-content tps-structure">
+                        <div class="tps-phase">
+                            <h4>🤔 THINK</h4>
+                            <p>¿Cómo cambió mi percepción de la programación al dirigir a una IA para construir mi idea?</p>
+                        </div>
+                        <div class="tps-phase">
+                            <h4>💬 SHARE</h4>
+                            <p>"Lo más difícil no fue programar, fue saber qué pedirle a la IA (Prompting)."</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </main>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
